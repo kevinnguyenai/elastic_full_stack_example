@@ -1,0 +1,27 @@
+version: '2.3'
+
+services:
+  # this is our kafka fast-data-dev for team01
+  fast-data-dev-01:
+    image: "fgst/minimum2scp-nodejs"
+    ports:
+     - "2222:22"
+     - "33000:3000"
+     - "33001:3001"
+     - "33002:3002"
+    scale: 1
+    networks: ['stack']
+  fast-data-dev-02:
+    image: "fgst/minimum2scp-nodejs"
+    ports:
+     - "3222:22"
+     - "33010:3000"
+     - "33011:3001"
+     - "33012:3002"  
+    scale: 1
+    networks: ['stack']
+
+###############################################################
+# Network settings
+###############################################################
+networks: {stack: {}}
