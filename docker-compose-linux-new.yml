@@ -147,6 +147,7 @@ services:
         ELK_VERSION: 6.8.16    
     volumes:
       - ./config/logstash/config/logstash.yml:/usr/share/logstash/config/logstash.yml
+      - ./config/logstash/config/pipelines.yml:/usr/share/logstash/config/pipelines.yml
       - ./config/logstash/pipeline/:/usr/share/logstash/pipeline/:ro
     environment:
       LS_JAVA_OPTS: "-Xmx256m -Xms256m"

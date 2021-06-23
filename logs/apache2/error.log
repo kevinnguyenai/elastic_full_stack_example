@@ -73,3 +73,33 @@ AH00558: httpd: Could not reliably determine the server's fully qualified domain
 [Wed Jun 23 02:37:13.362131 2021] [mpm_event:notice] [pid 1:tid 139819249756032] AH00489: Apache/2.4.20 (Unix) configured -- resuming normal operations
 [Wed Jun 23 02:37:13.362535 2021] [mpm_event:info] [pid 1:tid 139819249756032] AH00490: Server built: Jun  7 2016 17:55:26
 [Wed Jun 23 02:37:13.362582 2021] [core:notice] [pid 1:tid 139819249756032] AH00094: Command line: 'httpd -D FOREGROUND'
+[Wed Jun 23 05:16:34.935937 2021] [reqtimeout:info] [pid 859:tid 139818893764352] [client 45.148.10.50:57074] AH01382: Request header read timeout
+[Wed Jun 23 06:08:15.917240 2021] [core:info] [pid 1:tid 139819249756032] AH00096: removed PID file /usr/local/apache2/logs/httpd.pid (pid=1)
+[Wed Jun 23 06:08:15.955545 2021] [mpm_event:notice] [pid 1:tid 139819249756032] AH00491: caught SIGTERM, shutting down
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 172.26.0.2. Set the 'ServerName' directive globally to suppress this message
+[Wed Jun 23 06:11:16.196429 2021] [mpm_event:notice] [pid 1:tid 140617403299712] AH00489: Apache/2.4.20 (Unix) configured -- resuming normal operations
+[Wed Jun 23 06:11:16.197113 2021] [mpm_event:info] [pid 1:tid 140617403299712] AH00490: Server built: Jun  7 2016 17:55:26
+[Wed Jun 23 06:11:16.197160 2021] [core:notice] [pid 1:tid 140617403299712] AH00094: Command line: 'httpd -D FOREGROUND'
+[Wed Jun 23 09:29:06.983447 2021] [core:info] [pid 10:tid 140617195697920] [client 192.241.213.83:47720] AH00566: request failed: invalid characters in URI
+[Wed Jun 23 11:24:10.871271 2021] [core:info] [pid 9:tid 140617187305216] [client 100.119.135.106:12110] AH00566: request failed: invalid characters in URI
+[Wed Jun 23 11:24:10.873281 2021] [core:info] [pid 877:tid 140617053021952] [client 100.119.135.106:12125] AH00128: File does not exist: /usr/local/apache2/htdocs/ISAPI/Security/sessionLogin/capabilities
+[Wed Jun 23 11:24:10.875674 2021] [core:info] [pid 877:tid 140617094985472] [client 100.119.135.106:12125] AH00128: File does not exist: /usr/local/apache2/htdocs/ISAPI/Security/sessionLogin/capabilities
+[Wed Jun 23 11:24:10.877531 2021] [core:info] [pid 877:tid 140617044629248] [client 100.119.135.106:12125] AH00128: File does not exist: /usr/local/apache2/htdocs/ISAPI/Security/sessionLogin
+[Wed Jun 23 11:27:39.546676 2021] [core:info] [pid 877:tid 140617111770880] [client 100.119.135.106:11894] AH00128: File does not exist: /usr/local/apache2/htdocs/ISAPI/Security/sessionLogin/capabilities
+[Wed Jun 23 11:27:39.548731 2021] [core:info] [pid 877:tid 140617128556288] [client 100.119.135.106:11894] AH00128: File does not exist: /usr/local/apache2/htdocs/ISAPI/Security/sessionLogin/capabilities
+[Wed Jun 23 11:27:39.551083 2021] [core:info] [pid 877:tid 140617103378176] [client 100.119.135.106:11894] AH00128: File does not exist: /usr/local/apache2/htdocs/ISAPI/Security/sessionLogin
+[Wed Jun 23 11:30:24.958151 2021] [core:info] [pid 877:tid 140617212483328] [client 100.119.135.106:2870] AH00566: request failed: invalid characters in URI
+[Wed Jun 23 11:30:25.201692 2021] [core:info] [pid 877:tid 140617229268736] [client 100.119.135.106:2895] AH00128: File does not exist: /usr/local/apache2/htdocs/ISAPI/Security/sessionLogin/capabilities
+[Wed Jun 23 11:30:25.209448 2021] [core:info] [pid 877:tid 140617204090624] [client 100.119.135.106:2895] AH00128: File does not exist: /usr/local/apache2/htdocs/ISAPI/Security/sessionLogin/capabilities
+[Wed Jun 23 11:30:25.222043 2021] [core:info] [pid 877:tid 140617187305216] [client 100.119.135.106:2895] AH00128: File does not exist: /usr/local/apache2/htdocs/ISAPI/Security/sessionLogin
+[Wed Jun 23 11:36:01.886766 2021] [core:info] [pid 877:tid 140617128556288] [client 100.119.135.106:3303] AH00566: request failed: invalid characters in URI
+[Wed Jun 23 11:36:01.889208 2021] [core:info] [pid 10:tid 140617094985472] [client 100.119.135.106:3311] AH00128: File does not exist: /usr/local/apache2/htdocs/ISAPI/Security/sessionLogin/capabilities
+[Wed Jun 23 11:36:01.891840 2021] [core:info] [pid 10:tid 140617086592768] [client 100.119.135.106:3311] AH00128: File does not exist: /usr/local/apache2/htdocs/ISAPI/Security/sessionLogin/capabilities
+[Wed Jun 23 11:36:01.894071 2021] [core:info] [pid 10:tid 140617078200064] [client 100.119.135.106:3311] AH00128: File does not exist: /usr/local/apache2/htdocs/ISAPI/Security/sessionLogin
+[Wed Jun 23 11:37:38.513366 2021] [core:info] [pid 9:tid 140617078200064] [client 100.119.135.106:2274] AH00566: request failed: invalid characters in URI
+[Wed Jun 23 11:37:38.736026 2021] [core:info] [pid 8:tid 140617220876032] [client 100.119.135.106:2303] AH00128: File does not exist: /usr/local/apache2/htdocs/ISAPI/Security/sessionLogin/capabilities
+[Wed Jun 23 11:37:38.743583 2021] [core:info] [pid 8:tid 140617212483328] [client 100.119.135.106:2303] AH00128: File does not exist: /usr/local/apache2/htdocs/ISAPI/Security/sessionLogin/capabilities
+[Wed Jun 23 11:37:38.747512 2021] [core:info] [pid 8:tid 140617204090624] [client 100.119.135.106:2303] AH00128: File does not exist: /usr/local/apache2/htdocs/ISAPI/Security/sessionLogin
+[Wed Jun 23 11:39:23.934320 2021] [core:info] [pid 9:tid 140617053021952] [client 100.119.135.106:1078] AH00128: File does not exist: /usr/local/apache2/htdocs/ISAPI/Security/sessionLogin/capabilities
+[Wed Jun 23 11:39:23.938195 2021] [core:info] [pid 9:tid 140617044629248] [client 100.119.135.106:1078] AH00128: File does not exist: /usr/local/apache2/htdocs/ISAPI/Security/sessionLogin/capabilities
+[Wed Jun 23 11:39:23.942427 2021] [core:info] [pid 9:tid 140617315571456] [client 100.119.135.106:1078] AH00128: File does not exist: /usr/local/apache2/htdocs/ISAPI/Security/sessionLogin

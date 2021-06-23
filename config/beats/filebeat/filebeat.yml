@@ -42,4 +42,4 @@ output.elasticsearch:
 #  #ssl.certificate: "/etc/pki/tls/certs/logstash-forwarder.crt"
 #  #ssl.key: "/etc/pki/tls/private/logstash-forwarder.key"
 #================================ Logging =====================================
-#logging.level: debug
+logging.level: info

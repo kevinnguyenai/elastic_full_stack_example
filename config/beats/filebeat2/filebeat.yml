@@ -10,6 +10,11 @@ filebeat.inputs:
     - /var/log/custom/channels.json
   json.message_key: log
   json.keys_under_root: true
+- type: log
+  paths:
+    - /var/log/custom/*.csv
+  exclude_files: ['^bill','^File']
+  ignore_decoding_error: true
  
 processors:
 #  - decode_json_fields:
