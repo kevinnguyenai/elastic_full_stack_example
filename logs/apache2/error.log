@@ -38,3 +38,38 @@ AH00558: httpd: Could not reliably determine the server's fully qualified domain
 [Mon Jun 21 03:02:45.417607 2021] [mpm_event:notice] [pid 1:tid 140223021320064] AH00489: Apache/2.4.20 (Unix) configured -- resuming normal operations
 [Mon Jun 21 03:02:45.418041 2021] [mpm_event:info] [pid 1:tid 140223021320064] AH00490: Server built: Jun  7 2016 17:55:26
 [Mon Jun 21 03:02:45.418081 2021] [core:notice] [pid 1:tid 140223021320064] AH00094: Command line: 'httpd -D FOREGROUND'
+[Mon Jun 21 03:30:32.775691 2021] [core:info] [pid 10:tid 140222704584448] [client 192.241.220.192:34940] AH00566: request failed: invalid characters in URI
+[Mon Jun 21 06:48:29.599092 2021] [reqtimeout:info] [pid 12:tid 140222729762560] [client 45.148.10.50:43844] AH01382: Request header read timeout
+[Mon Jun 21 08:44:30.583744 2021] [core:info] [pid 1:tid 140223021320064] AH00096: removed PID file /usr/local/apache2/logs/httpd.pid (pid=1)
+[Mon Jun 21 08:44:30.583907 2021] [mpm_event:notice] [pid 1:tid 140223021320064] AH00491: caught SIGTERM, shutting down
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 172.26.0.4. Set the 'ServerName' directive globally to suppress this message
+[Mon Jun 21 08:46:23.423378 2021] [mpm_event:notice] [pid 1:tid 140643477153664] AH00489: Apache/2.4.20 (Unix) configured -- resuming normal operations
+[Mon Jun 21 08:46:23.423966 2021] [mpm_event:info] [pid 1:tid 140643477153664] AH00490: Server built: Jun  7 2016 17:55:26
+[Mon Jun 21 08:46:23.424017 2021] [core:notice] [pid 1:tid 140643477153664] AH00094: Command line: 'httpd -D FOREGROUND'
+[Mon Jun 21 09:38:54.858288 2021] [core:info] [pid 395:tid 140643381032704] [client 185.167.97.229:39232] AH00566: request failed: invalid characters in URI
+[Tue Jun 22 02:15:56.989200 2021] [core:info] [pid 1:tid 140643477153664] AH00096: removed PID file /usr/local/apache2/logs/httpd.pid (pid=1)
+[Tue Jun 22 02:15:56.989374 2021] [mpm_event:notice] [pid 1:tid 140643477153664] AH00491: caught SIGTERM, shutting down
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 172.26.0.4. Set the 'ServerName' directive globally to suppress this message
+[Tue Jun 22 02:28:33.591393 2021] [mpm_event:notice] [pid 1:tid 140169970169728] AH00489: Apache/2.4.20 (Unix) configured -- resuming normal operations
+[Tue Jun 22 02:28:33.592001 2021] [mpm_event:info] [pid 1:tid 140169970169728] AH00490: Server built: Jun  7 2016 17:55:26
+[Tue Jun 22 02:28:33.625686 2021] [core:notice] [pid 1:tid 140169970169728] AH00094: Command line: 'httpd -D FOREGROUND'
+[Tue Jun 22 02:36:50.796356 2021] [core:info] [pid 8:tid 140169738938112] [client 42.116.255.217:50757] AH00128: File does not exist: /usr/local/apache2/htdocs/favicon.ico, referer: http://42.116.254.250:8000/
+[Tue Jun 22 05:09:25.246095 2021] [core:info] [pid 9:tid 140169646618368] [client 192.241.222.127:37274] AH00566: request failed: invalid characters in URI
+[Tue Jun 22 06:39:26.686475 2021] [core:info] [pid 1:tid 140169970169728] AH00096: removed PID file /usr/local/apache2/logs/httpd.pid (pid=1)
+[Tue Jun 22 06:39:26.686661 2021] [mpm_event:notice] [pid 1:tid 140169970169728] AH00491: caught SIGTERM, shutting down
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 172.26.0.2. Set the 'ServerName' directive globally to suppress this message
+[Tue Jun 22 06:44:46.660151 2021] [mpm_event:notice] [pid 1:tid 140569032320896] AH00489: Apache/2.4.20 (Unix) configured -- resuming normal operations
+[Tue Jun 22 06:44:46.660528 2021] [mpm_event:info] [pid 1:tid 140569032320896] AH00490: Server built: Jun  7 2016 17:55:26
+[Tue Jun 22 06:44:46.660580 2021] [core:notice] [pid 1:tid 140569032320896] AH00094: Command line: 'httpd -D FOREGROUND'
+[Tue Jun 22 09:47:17.547690 2021] [core:info] [pid 10:tid 140568835385088] [client 80.82.77.139:47706] AH00128: File does not exist: /usr/local/apache2/htdocs/favicon.ico
+[Tue Jun 22 10:16:34.526441 2021] [core:info] [pid 8:tid 140568701101824] [client 94.232.47.180:64547] AH00566: request failed: invalid characters in URI
+[Wed Jun 23 02:18:21.380304 2021] [core:warn] [pid 1:tid 140569032320896] AH00045: child process 8 still did not exit, sending a SIGTERM
+[Wed Jun 23 02:18:21.484491 2021] [core:warn] [pid 1:tid 140569032320896] AH00045: child process 9 still did not exit, sending a SIGTERM
+[Wed Jun 23 02:18:21.484539 2021] [core:warn] [pid 1:tid 140569032320896] AH00045: child process 10 still did not exit, sending a SIGTERM
+[Wed Jun 23 02:18:21.484572 2021] [core:warn] [pid 1:tid 140569032320896] AH00045: child process 1184 still did not exit, sending a SIGTERM
+[Wed Jun 23 02:18:22.586268 2021] [core:info] [pid 1:tid 140569032320896] AH00096: removed PID file /usr/local/apache2/logs/httpd.pid (pid=1)
+[Wed Jun 23 02:18:22.597086 2021] [mpm_event:notice] [pid 1:tid 140569032320896] AH00491: caught SIGTERM, shutting down
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 172.26.0.2. Set the 'ServerName' directive globally to suppress this message
+[Wed Jun 23 02:37:13.362131 2021] [mpm_event:notice] [pid 1:tid 139819249756032] AH00489: Apache/2.4.20 (Unix) configured -- resuming normal operations
+[Wed Jun 23 02:37:13.362535 2021] [mpm_event:info] [pid 1:tid 139819249756032] AH00490: Server built: Jun  7 2016 17:55:26
+[Wed Jun 23 02:37:13.362582 2021] [core:notice] [pid 1:tid 139819249756032] AH00094: Command line: 'httpd -D FOREGROUND'

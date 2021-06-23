@@ -26,6 +26,20 @@ filebeat.modules:
     var.paths: ["/var/log/mysql/error.log*"]
   slowlog:
     var.paths: ["/var/log/mysql/mysql-slow.log*"]
+#Custom module consumes log from custom logs from mounted volume
+#- module: system
+#  syslog:
+#    var.paths: ["/var/log/channel.json*"]
 #All data to indexed to Elasticsearch
 output.elasticsearch:
   hosts: ["elasticsearch:9200"]
+
+#----------------------------- Logstash output --------------------------------
+#output.logstash:
+#  hosts: ["localhost:5044"]
+#  ssl.enabled: false
+#  #ssl.certificate_authorities: ["/etc/pki/root/ca.pem"]
+#  #ssl.certificate: "/etc/pki/tls/certs/logstash-forwarder.crt"
+#  #ssl.key: "/etc/pki/tls/private/logstash-forwarder.key"
+#================================ Logging =====================================
+#logging.level: debug

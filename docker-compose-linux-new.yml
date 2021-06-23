@@ -95,6 +95,8 @@ services:
       - ./logs/apache2/:/var/log/apache2/
       #Mount the mysql logs into the filebeat container so we can access and and index them using the filebeat mysql module
       - ./logs/mysql/:/var/log/mysql/
+      #Mount the custom logs into the filebeat container so we can access and index them , using for any test case
+      - ./logs/custom/:/var/log/custom/
       #Mount the hosts system log directory. This represents the logs of the VM hosting docker. Consumed by the filebeat system module.
       - /var/log/:/var/log/host/:ro
       #Mount the docker logs for indexing by the custom prospector ./config/filebeat/prospectors.d
@@ -109,6 +111,29 @@ services:
       elasticsearch:  { condition: service_healthy }
       nginx: { condition: service_started }
       apache2: { condition: service_started }
+
+  #Filebeat container 2 for custom usecase
+  filebeat2:
+    container_name: filebeat2
+    hostname: filebeat
+    user: root
+    image: "docker.elastic.co/beats/filebeat:6.8.16"
+    volumes:
+      #Mount the filebeat configuration so users can make edit
+      - ./config/beats/filebeat2/filebeat.yml:/usr/share/filebeat/filebeat.yml
+      #Mount the prospectors directory. Users can in turn add propspectors to this directory and they will be dynamically loaded
+      - ./config/beats/filebeat2/prospectors.d/:/usr/share/filebeat/prospectors.d/
+      #Mount the custom logs into the filebeat container so we can access and index them , using for any test case
+      - ./logs/custom/:/var/log/custom/
+      #Named volume fsdata. This is used to persist the registry file between restarts, so to avoid data duplication
+      - fbdata2:/usr/share/filebeat/data/
+    networks: ['stack']
+    command: filebeat -e -strict.perms=false
+    restart: on-failure
+    depends_on:
+      #wait for the these services to come up. This ensures the logs are available and ES exists for indexing
+      elasticsearch:  { condition: service_healthy }
+      logstash: { condition: service_started }
 
   # Logstash container
   logstash:
@@ -240,5 +265,7 @@ volumes:
     driver: local
   #Filebeat data i.e. registry file
   fbdata:
+    driver: local
+  fbdata2:
     driver: local
 networks: {stack: {}}
