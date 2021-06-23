@@ -1,2 +1,2 @@
-./logs/apache2/
-./logs/nginx/
+./logs/apache2/**
+./logs/nginx/**
