@@ -13,7 +13,7 @@ filebeat.inputs:
 - type: log
   paths:
     - /var/log/custom/*.csv
-  exclude_files: ['^bill','^File']
+  exclude_lines: ['^bil','^File']
   ignore_decoding_error: true
  
 processors:

@@ -3552,6 +3552,5 @@
  {"account":"GW: PSTN_Trunk","gateway":"GW:SS7_VTLM_TN_HNI","peer":"02473063979","direction":"called","state":"early","connected":1596186469,"duration":0},
  {"account":"GW: PSTN_Trunk","gateway":"GW:SS7_VINA_HCM_1","peer":"02747300333","direction":"calling","state":"trying","connected":1596186469,"duration":0},
  {"account":"SGVO07601_BDG","number":"02747300333","peer":"0916669465","direction":"called","state":"trying","connected":1596186469,"duration":0},
- {"account":"SGVO12293_HCM","number":"02873066727","peer":"0564627582","direction":"calling","state":"trying","connected":1596186469,"duration":0},
- {"account":"GW: PSTN_Trunk","gateway":"GW:SS7_VNM_HCM","peer":"02873066727","direction":"called","state":"trying","connected":1596186469,"duration":0}
+ {"account":"SGVO12293_HCM","number":"02873066727","peer":"0564627582","direction":"calling","state":"trying","connected":1596186469,"duration":0}
 ]}

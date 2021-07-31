@@ -103,3 +103,147 @@ AH00558: httpd: Could not reliably determine the server's fully qualified domain
 [Wed Jun 23 11:39:23.934320 2021] [core:info] [pid 9:tid 140617053021952] [client 100.119.135.106:1078] AH00128: File does not exist: /usr/local/apache2/htdocs/ISAPI/Security/sessionLogin/capabilities
 [Wed Jun 23 11:39:23.938195 2021] [core:info] [pid 9:tid 140617044629248] [client 100.119.135.106:1078] AH00128: File does not exist: /usr/local/apache2/htdocs/ISAPI/Security/sessionLogin/capabilities
 [Wed Jun 23 11:39:23.942427 2021] [core:info] [pid 9:tid 140617315571456] [client 100.119.135.106:1078] AH00128: File does not exist: /usr/local/apache2/htdocs/ISAPI/Security/sessionLogin
+[Wed Jun 23 11:42:07.008314 2021] [core:info] [pid 877:tid 140617078200064] [client 100.119.135.106:5467] AH00566: request failed: invalid characters in URI
+[Wed Jun 23 11:42:07.209161 2021] [core:info] [pid 10:tid 140617136948992] [client 100.119.135.106:5506] AH00128: File does not exist: /usr/local/apache2/htdocs/ISAPI/Security/sessionLogin/capabilities
+[Wed Jun 23 11:42:07.211511 2021] [core:info] [pid 10:tid 140617128556288] [client 100.119.135.106:5506] AH00128: File does not exist: /usr/local/apache2/htdocs/ISAPI/Security/sessionLogin/capabilities
+[Wed Jun 23 11:42:07.213600 2021] [core:info] [pid 10:tid 140617120163584] [client 100.119.135.106:5506] AH00128: File does not exist: /usr/local/apache2/htdocs/ISAPI/Security/sessionLogin
+[Wed Jun 23 11:44:53.984122 2021] [core:info] [pid 9:tid 140617053021952] [client 100.119.135.106:12408] AH00566: request failed: invalid characters in URI
+[Wed Jun 23 11:44:53.988352 2021] [core:info] [pid 10:tid 140617187305216] [client 100.119.135.106:12419] AH00128: File does not exist: /usr/local/apache2/htdocs/ISAPI/Security/sessionLogin/capabilities
+[Wed Jun 23 11:44:53.991258 2021] [core:info] [pid 10:tid 140617178912512] [client 100.119.135.106:12419] AH00128: File does not exist: /usr/local/apache2/htdocs/ISAPI/Security/sessionLogin/capabilities
+[Wed Jun 23 11:44:53.993451 2021] [core:info] [pid 10:tid 140617170519808] [client 100.119.135.106:12419] AH00128: File does not exist: /usr/local/apache2/htdocs/ISAPI/Security/sessionLogin
+[Wed Jun 23 11:46:43.736771 2021] [core:info] [pid 877:tid 140617086592768] [client 100.119.135.106:13418] AH00128: File does not exist: /usr/local/apache2/htdocs/ISAPI/Security/sessionLogin/capabilities
+[Wed Jun 23 11:46:43.739633 2021] [core:info] [pid 877:tid 140617069807360] [client 100.119.135.106:13418] AH00128: File does not exist: /usr/local/apache2/htdocs/ISAPI/Security/sessionLogin/capabilities
+[Wed Jun 23 11:46:43.742957 2021] [core:info] [pid 877:tid 140617061414656] [client 100.119.135.106:13418] AH00128: File does not exist: /usr/local/apache2/htdocs/ISAPI/Security/sessionLogin
+[Wed Jun 23 13:29:43.616243 2021] [reqtimeout:info] [pid 877:tid 140617187305216] [client 203.159.80.75:53078] AH01382: Request header read timeout
+[Wed Jun 23 14:09:05.850035 2021] [core:info] [pid 1:tid 140617403299712] AH00096: removed PID file /usr/local/apache2/logs/httpd.pid (pid=1)
+[Wed Jun 23 14:09:05.850177 2021] [mpm_event:notice] [pid 1:tid 140617403299712] AH00491: caught SIGTERM, shutting down
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 172.26.0.5. Set the 'ServerName' directive globally to suppress this message
+[Wed Jun 23 14:14:44.132869 2021] [mpm_event:notice] [pid 1:tid 140306098517888] AH00489: Apache/2.4.20 (Unix) configured -- resuming normal operations
+[Wed Jun 23 14:14:44.133221 2021] [mpm_event:info] [pid 1:tid 140306098517888] AH00490: Server built: Jun  7 2016 17:55:26
+[Wed Jun 23 14:14:44.133284 2021] [core:notice] [pid 1:tid 140306098517888] AH00094: Command line: 'httpd -D FOREGROUND'
+[Wed Jun 23 15:11:31.941043 2021] [core:info] [pid 9:tid 140306010789632] [client 14.241.209.209:61226] AH00128: File does not exist: /usr/local/apache2/htdocs/HNAP1/, referer: http://42.116.254.250:8000/
+[Thu Jun 24 01:05:38.865838 2021] [core:info] [pid 1:tid 140306098517888] AH00096: removed PID file /usr/local/apache2/logs/httpd.pid (pid=1)
+[Thu Jun 24 01:05:38.866037 2021] [mpm_event:notice] [pid 1:tid 140306098517888] AH00491: caught SIGTERM, shutting down
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 172.26.0.3. Set the 'ServerName' directive globally to suppress this message
+[Thu Jun 24 01:08:11.873964 2021] [mpm_event:notice] [pid 1:tid 140221556160384] AH00489: Apache/2.4.20 (Unix) configured -- resuming normal operations
+[Thu Jun 24 01:08:11.874430 2021] [mpm_event:info] [pid 1:tid 140221556160384] AH00490: Server built: Jun  7 2016 17:55:26
+[Thu Jun 24 01:08:11.875091 2021] [core:notice] [pid 1:tid 140221556160384] AH00094: Command line: 'httpd -D FOREGROUND'
+[Thu Jun 24 05:35:12.570215 2021] [core:info] [pid 10:tid 140221211404032] [client 185.165.190.17:55268] AH00128: File does not exist: /usr/local/apache2/htdocs/favicon.ico
+[Thu Jun 24 05:35:33.094390 2021] [reqtimeout:info] [pid 1268:tid 140221228189440] [client 185.165.190.17:55630] AH01382: Request header read timeout
+[Thu Jun 24 07:20:29.933731 2021] [reqtimeout:info] [pid 8:tid 140221270152960] [client 45.148.10.50:52398] AH01382: Request header read timeout
+[Fri Jun 25 02:09:14.316410 2021] [core:info] [pid 1:tid 140221556160384] AH00096: removed PID file /usr/local/apache2/logs/httpd.pid (pid=1)
+[Fri Jun 25 02:09:14.316581 2021] [mpm_event:notice] [pid 1:tid 140221556160384] AH00491: caught SIGTERM, shutting down
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 172.26.0.5. Set the 'ServerName' directive globally to suppress this message
+[Fri Jun 25 02:12:32.901090 2021] [mpm_event:notice] [pid 1:tid 140239800117120] AH00489: Apache/2.4.20 (Unix) configured -- resuming normal operations
+[Fri Jun 25 02:12:32.901913 2021] [mpm_event:info] [pid 1:tid 140239800117120] AH00490: Server built: Jun  7 2016 17:55:26
+[Fri Jun 25 02:12:32.901966 2021] [core:notice] [pid 1:tid 140239800117120] AH00094: Command line: 'httpd -D FOREGROUND'
+[Fri Jun 25 05:24:24.419509 2021] [core:info] [pid 1:tid 140239800117120] AH00096: removed PID file /usr/local/apache2/logs/httpd.pid (pid=1)
+[Fri Jun 25 05:24:24.419705 2021] [mpm_event:notice] [pid 1:tid 140239800117120] AH00491: caught SIGTERM, shutting down
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 172.26.0.3. Set the 'ServerName' directive globally to suppress this message
+[Fri Jun 25 06:18:45.788730 2021] [mpm_event:notice] [pid 1:tid 140224245528448] AH00489: Apache/2.4.20 (Unix) configured -- resuming normal operations
+[Fri Jun 25 06:18:45.789215 2021] [mpm_event:info] [pid 1:tid 140224245528448] AH00490: Server built: Jun  7 2016 17:55:26
+[Fri Jun 25 06:18:45.830156 2021] [core:notice] [pid 1:tid 140224245528448] AH00094: Command line: 'httpd -D FOREGROUND'
+[Fri Jun 25 06:24:41.812138 2021] [reqtimeout:info] [pid 100:tid 140224132622080] [client 45.148.10.50:40314] AH01382: Request header read timeout
+[Fri Jun 25 14:31:24.056331 2021] [core:info] [pid 1:tid 140224245528448] AH00096: removed PID file /usr/local/apache2/logs/httpd.pid (pid=1)
+[Fri Jun 25 14:31:24.056524 2021] [mpm_event:notice] [pid 1:tid 140224245528448] AH00491: caught SIGTERM, shutting down
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 172.26.0.5. Set the 'ServerName' directive globally to suppress this message
+[Fri Jun 25 14:34:42.139643 2021] [mpm_event:notice] [pid 1:tid 140305331935104] AH00489: Apache/2.4.20 (Unix) configured -- resuming normal operations
+[Fri Jun 25 14:34:42.140005 2021] [mpm_event:info] [pid 1:tid 140305331935104] AH00490: Server built: Jun  7 2016 17:55:26
+[Fri Jun 25 14:34:42.140042 2021] [core:notice] [pid 1:tid 140305331935104] AH00094: Command line: 'httpd -D FOREGROUND'
+[Fri Jun 25 17:57:52.209209 2021] [core:info] [pid 9:tid 140305063945984] [client 192.241.216.12:37674] AH00566: request failed: invalid characters in URI
+[Sat Jun 26 02:55:29.174598 2021] [core:info] [pid 713:tid 140305147873024] [client 183.136.225.14:29983] AH00128: File does not exist: /usr/local/apache2/htdocs/favicon.ico
+[Sat Jun 26 11:27:11.347096 2021] [core:info] [pid 10:tid 140305147873024] [client 185.220.205.196:51910] AH00566: request failed: invalid characters in URI
+[Sat Jun 26 12:59:08.568010 2021] [core:info] [pid 9:tid 140305072338688] [client 115.72.25.165:51454] AH00128: File does not exist: /usr/local/apache2/htdocs/status
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 172.26.0.5. Set the 'ServerName' directive globally to suppress this message
+[Mon Jun 28 04:06:09.891081 2021] [mpm_event:notice] [pid 1:tid 140305362671488] AH00489: Apache/2.4.20 (Unix) configured -- resuming normal operations
+[Mon Jun 28 04:06:09.916746 2021] [mpm_event:info] [pid 1:tid 140305362671488] AH00490: Server built: Jun  7 2016 17:55:26
+[Mon Jun 28 04:06:09.916826 2021] [core:notice] [pid 1:tid 140305362671488] AH00094: Command line: 'httpd -D FOREGROUND'
+[Mon Jun 28 07:21:59.765129 2021] [core:info] [pid 9:tid 140305258157824] [client 185.142.236.34:52750] AH00128: File does not exist: /usr/local/apache2/htdocs/favicon.ico
+[Mon Jun 28 07:22:20.456845 2021] [reqtimeout:info] [pid 259:tid 140305013589760] [client 185.142.236.34:53422] AH01382: Request header read timeout
+[Mon Jun 28 14:29:09.116923 2021] [core:info] [pid 1:tid 140305362671488] AH00096: removed PID file /usr/local/apache2/logs/httpd.pid (pid=1)
+[Mon Jun 28 14:29:09.117051 2021] [mpm_event:notice] [pid 1:tid 140305362671488] AH00491: caught SIGTERM, shutting down
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 172.26.0.4. Set the 'ServerName' directive globally to suppress this message
+[Mon Jun 28 14:32:01.128608 2021] [mpm_event:notice] [pid 1:tid 139683275294592] AH00489: Apache/2.4.20 (Unix) configured -- resuming normal operations
+[Mon Jun 28 14:32:01.150375 2021] [mpm_event:info] [pid 1:tid 139683275294592] AH00490: Server built: Jun  7 2016 17:55:26
+[Mon Jun 28 14:32:01.150437 2021] [core:notice] [pid 1:tid 139683275294592] AH00094: Command line: 'httpd -D FOREGROUND'
+[Tue Jun 29 11:14:09.970225 2021] [core:info] [pid 1:tid 139683275294592] AH00096: removed PID file /usr/local/apache2/logs/httpd.pid (pid=1)
+[Tue Jun 29 11:14:09.970354 2021] [mpm_event:notice] [pid 1:tid 139683275294592] AH00491: caught SIGTERM, shutting down
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 172.26.0.4. Set the 'ServerName' directive globally to suppress this message
+[Tue Jun 29 13:58:32.577169 2021] [mpm_event:notice] [pid 1:tid 140540149901184] AH00489: Apache/2.4.20 (Unix) configured -- resuming normal operations
+[Tue Jun 29 13:58:32.578805 2021] [mpm_event:info] [pid 1:tid 140540149901184] AH00490: Server built: Jun  7 2016 17:55:26
+[Tue Jun 29 13:58:32.578903 2021] [core:notice] [pid 1:tid 140540149901184] AH00094: Command line: 'httpd -D FOREGROUND'
+[Tue Jun 29 15:41:08.596531 2021] [reqtimeout:info] [pid 1254:tid 140539844290304] [client 103.145.13.121:37912] AH01382: Request header read timeout
+[Wed Jun 30 02:36:21.023170 2021] [core:info] [pid 1:tid 140540149901184] AH00096: removed PID file /usr/local/apache2/logs/httpd.pid (pid=1)
+[Wed Jun 30 02:36:21.023351 2021] [mpm_event:notice] [pid 1:tid 140540149901184] AH00491: caught SIGTERM, shutting down
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 172.26.0.5. Set the 'ServerName' directive globally to suppress this message
+[Wed Jun 30 05:54:36.188549 2021] [mpm_event:notice] [pid 1:tid 139691379345280] AH00489: Apache/2.4.20 (Unix) configured -- resuming normal operations
+[Wed Jun 30 05:54:36.188923 2021] [mpm_event:info] [pid 1:tid 139691379345280] AH00490: Server built: Jun  7 2016 17:55:26
+[Wed Jun 30 05:54:36.188958 2021] [core:notice] [pid 1:tid 139691379345280] AH00094: Command line: 'httpd -D FOREGROUND'
+[Wed Jun 30 06:40:52.604357 2021] [core:info] [pid 12:tid 139691093341952] [client 192.241.213.101:60756] AH00566: request failed: invalid characters in URI
+[Wed Jun 30 08:49:03.385303 2021] [core:info] [pid 13:tid 139691168876288] [client 185.167.98.154:36034] AH00566: request failed: invalid characters in URI
+[Wed Jun 30 09:52:30.290439 2021] [core:info] [pid 13:tid 139691152090880] [client 113.170.128.208:52630] AH00128: File does not exist: /usr/local/apache2/htdocs/HNAP1/, referer: http://42.116.254.250:8000/
+[Wed Jun 30 12:31:46.630671 2021] [reqtimeout:info] [pid 1989:tid 139691143698176] [client 45.148.10.50:40288] AH01382: Request header read timeout
+[Wed Jun 30 13:28:43.642809 2021] [reqtimeout:info] [pid 13:tid 139691093341952] [client 103.145.13.121:46848] AH01382: Request header read timeout
+[Wed Jun 30 16:21:37.173994 2021] [reqtimeout:info] [pid 1989:tid 139691177268992] [client 103.145.13.121:42086] AH01382: Request header read timeout
+[Wed Jun 30 17:55:07.772105 2021] [reqtimeout:info] [pid 13:tid 139691026200320] [client 103.145.13.121:39498] AH01382: Request header read timeout
+[Thu Jul 01 01:45:20.176942 2021] [core:info] [pid 1:tid 139691379345280] AH00096: removed PID file /usr/local/apache2/logs/httpd.pid (pid=1)
+[Thu Jul 01 01:45:20.177071 2021] [mpm_event:notice] [pid 1:tid 139691379345280] AH00491: caught SIGTERM, shutting down
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 172.26.0.5. Set the 'ServerName' directive globally to suppress this message
+[Thu Jul 01 01:50:43.306885 2021] [mpm_event:notice] [pid 1:tid 140031019132800] AH00489: Apache/2.4.20 (Unix) configured -- resuming normal operations
+[Thu Jul 01 01:50:43.307237 2021] [mpm_event:info] [pid 1:tid 140031019132800] AH00490: Server built: Jun  7 2016 17:55:26
+[Thu Jul 01 01:50:43.307286 2021] [core:notice] [pid 1:tid 140031019132800] AH00094: Command line: 'httpd -D FOREGROUND'
+[Fri Jul 02 01:29:36.598342 2021] [core:info] [pid 1:tid 140031019132800] AH00096: removed PID file /usr/local/apache2/logs/httpd.pid (pid=1)
+[Fri Jul 02 01:29:36.598499 2021] [mpm_event:notice] [pid 1:tid 140031019132800] AH00491: caught SIGTERM, shutting down
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 172.26.0.5. Set the 'ServerName' directive globally to suppress this message
+[Mon Jul 05 02:35:00.740269 2021] [mpm_event:notice] [pid 1:tid 140020667549568] AH00489: Apache/2.4.20 (Unix) configured -- resuming normal operations
+[Mon Jul 05 02:35:00.740648 2021] [mpm_event:info] [pid 1:tid 140020667549568] AH00490: Server built: Jun  7 2016 17:55:26
+[Mon Jul 05 02:35:00.740687 2021] [core:notice] [pid 1:tid 140020667549568] AH00094: Command line: 'httpd -D FOREGROUND'
+[Mon Jul 05 02:45:03.253335 2021] [core:info] [pid 9:tid 140020497250048] [client 192.241.218.90:54454] AH00566: request failed: invalid characters in URI
+[Mon Jul 05 02:49:56.734034 2021] [reqtimeout:info] [pid 9:tid 140020438501120] [client 103.145.13.121:47512] AH01382: Request header read timeout
+[Mon Jul 05 06:03:21.768147 2021] [core:info] [pid 9:tid 140020404930304] [client 42.116.124.37:8897] AH00566: request failed: invalid characters in URI
+[Mon Jul 05 06:03:21.805643 2021] [core:info] [pid 10:tid 140020337788672] [client 42.116.124.37:8919] AH00566: request failed: invalid characters in URI
+[Mon Jul 05 06:03:21.827861 2021] [core:info] [pid 326:tid 140020455286528] [client 42.116.124.37:8932] AH00566: request failed: invalid characters in URI
+[Mon Jul 05 06:03:21.856263 2021] [core:info] [pid 9:tid 140020396537600] [client 42.116.124.37:8950] AH00566: request failed: invalid characters in URI
+[Mon Jul 05 06:03:21.897022 2021] [core:info] [pid 9:tid 140020413323008] [client 42.116.124.37:8968] AH00566: request failed: invalid characters in URI
+[Mon Jul 05 06:03:21.936799 2021] [core:info] [pid 10:tid 140020329395968] [client 42.116.124.37:8994] AH00566: request failed: invalid characters in URI
+[Mon Jul 05 06:03:21.956595 2021] [core:info] [pid 10:tid 140020354574080] [client 42.116.124.37:9027] AH00566: request failed: invalid characters in URI
+[Mon Jul 05 06:03:21.978755 2021] [core:info] [pid 10:tid 140020321003264] [client 42.116.124.37:9039] AH00566: request failed: invalid characters in URI
+[Mon Jul 05 06:03:22.016280 2021] [core:info] [pid 10:tid 140020312610560] [client 42.116.124.37:9050] AH00566: request failed: invalid characters in URI
+[Mon Jul 05 06:03:22.038516 2021] [core:info] [pid 326:tid 140020446893824] [client 42.116.124.37:9079] AH00566: request failed: invalid characters in URI
+[Mon Jul 05 06:03:22.066426 2021] [core:info] [pid 10:tid 140020304217856] [client 42.116.124.37:9094] AH00566: request failed: invalid characters in URI
+[Mon Jul 05 06:03:22.091956 2021] [core:info] [pid 326:tid 140020438501120] [client 42.116.124.37:9113] AH00566: request failed: invalid characters in URI
+[Mon Jul 05 06:03:22.112788 2021] [core:info] [pid 326:tid 140020480464640] [client 42.116.124.37:9129] AH00566: request failed: invalid characters in URI
+[Mon Jul 05 06:03:22.136012 2021] [core:info] [pid 326:tid 140020488857344] [client 42.116.124.37:9144] AH00566: request failed: invalid characters in URI
+[Mon Jul 05 06:03:22.167970 2021] [core:info] [pid 326:tid 140020430108416] [client 42.116.124.37:9161] AH00566: request failed: invalid characters in URI
+[Mon Jul 05 06:03:22.211183 2021] [core:info] [pid 326:tid 140020472071936] [client 42.116.124.37:9176] AH00566: request failed: invalid characters in URI
+[Mon Jul 05 06:03:22.230973 2021] [core:info] [pid 326:tid 140020413323008] [client 42.116.124.37:9206] AH00566: request failed: invalid characters in URI
+[Mon Jul 05 06:03:22.250936 2021] [core:info] [pid 10:tid 140020579821312] [client 42.116.124.37:9219] AH00566: request failed: invalid characters in URI
+[Mon Jul 05 06:03:22.291521 2021] [core:info] [pid 326:tid 140020421715712] [client 42.116.124.37:9235] AH00566: request failed: invalid characters in URI
+[Mon Jul 05 06:03:22.312503 2021] [core:info] [pid 9:tid 140020388144896] [client 42.116.124.37:9260] AH00566: request failed: invalid characters in URI
+[Mon Jul 05 16:18:00.978431 2021] [reqtimeout:info] [pid 10:tid 140020413323008] [client 185.53.90.90:53082] AH01382: Request header read timeout
+[Mon Jul 05 17:21:59.655301 2021] [reqtimeout:info] [pid 9:tid 140020362966784] [client 103.145.13.121:58548] AH01382: Request header read timeout
+[Mon Jul 05 19:24:03.002267 2021] [reqtimeout:info] [pid 326:tid 140020371359488] [client 103.145.13.121:59400] AH01382: Request header read timeout
+[Mon Jul 05 21:21:00.154450 2021] [reqtimeout:info] [pid 326:tid 140020472071936] [client 103.145.13.121:59256] AH01382: Request header read timeout
+[Mon Jul 05 22:34:18.866457 2021] [reqtimeout:info] [pid 326:tid 140020497250048] [client 185.53.90.90:37402] AH01382: Request header read timeout
+[Mon Jul 05 23:52:49.874518 2021] [reqtimeout:info] [pid 326:tid 140020329395968] [client 103.145.13.121:58042] AH01382: Request header read timeout
+[Tue Jul 06 01:39:38.786682 2021] [reqtimeout:info] [pid 10:tid 140020413323008] [client 103.145.13.121:35842] AH01382: Request header read timeout
+[Tue Jul 06 03:04:24.546635 2021] [core:info] [pid 10:tid 140020371359488] [client 192.241.216.153:51136] AH00566: request failed: invalid characters in URI
+[Tue Jul 06 05:12:20.019111 2021] [core:info] [pid 326:tid 140020321003264] [client 185.167.97.31:60774] AH00566: request failed: invalid characters in URI
+[Tue Jul 06 06:52:18.066302 2021] [reqtimeout:info] [pid 326:tid 140020379752192] [client 185.53.90.90:35364] AH01382: Request header read timeout
+[Tue Jul 06 09:17:58.102527 2021] [reqtimeout:info] [pid 326:tid 140020455286528] [client 103.145.13.121:33918] AH01382: Request header read timeout
+[Tue Jul 06 12:24:33.728982 2021] [core:info] [pid 10:tid 140020497250048] [client 106.15.63.147:47380] AH00128: File does not exist: /usr/local/apache2/htdocs/_ignition/execute-solution
+[Tue Jul 06 19:58:20.110530 2021] [reqtimeout:info] [pid 9:tid 140020362966784] [client 103.145.13.121:44408] AH01382: Request header read timeout
+[Wed Jul 07 00:46:22.998583 2021] [reqtimeout:info] [pid 326:tid 140020304217856] [client 103.145.13.121:34142] AH01382: Request header read timeout
+[Wed Jul 07 01:15:12.542448 2021] [reqtimeout:info] [pid 10:tid 140020438501120] [client 185.53.90.90:38184] AH01382: Request header read timeout
+[Wed Jul 07 02:21:28.528609 2021] [reqtimeout:info] [pid 10:tid 140020488857344] [client 103.145.13.121:50796] AH01382: Request header read timeout
+[Wed Jul 07 04:33:35.671841 2021] [core:info] [pid 10:tid 140020388144896] [client 192.241.222.20:53884] AH00566: request failed: invalid characters in URI
+[Fri Jul 09 07:44:22.225414 2021] [core:info] [pid 1:tid 140020667549568] AH00096: removed PID file /usr/local/apache2/logs/httpd.pid (pid=1)
+[Fri Jul 09 07:44:22.225509 2021] [mpm_event:notice] [pid 1:tid 140020667549568] AH00491: caught SIGTERM, shutting down
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 172.26.0.5. Set the 'ServerName' directive globally to suppress this message
+[Fri Jul 09 07:46:55.543979 2021] [mpm_event:notice] [pid 1:tid 140046310619008] AH00489: Apache/2.4.20 (Unix) configured -- resuming normal operations
+[Fri Jul 09 07:46:55.544357 2021] [mpm_event:info] [pid 1:tid 140046310619008] AH00490: Server built: Jun  7 2016 17:55:26
+[Fri Jul 09 07:46:55.544391 2021] [core:notice] [pid 1:tid 140046310619008] AH00094: Command line: 'httpd -D FOREGROUND'
+[Fri Jul 09 08:05:09.194086 2021] [core:info] [pid 8:tid 140045973374720] [client 192.241.211.213:49672] AH00566: request failed: invalid characters in URI
+[Fri Jul 09 17:02:09.648790 2021] [core:info] [pid 9:tid 140046057301760] [client 185.167.97.191:51462] AH00566: request failed: invalid characters in URI
+[Mon Jul 19 03:46:19.565607 2021] [core:info] [pid 1:tid 140046310619008] AH00096: removed PID file /usr/local/apache2/logs/httpd.pid (pid=1)
+[Mon Jul 19 03:46:19.599625 2021] [mpm_event:notice] [pid 1:tid 140046310619008] AH00491: caught SIGTERM, shutting down
